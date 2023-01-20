@@ -6,7 +6,9 @@ function App() {
       <header class="header-div">
         <div class="card-back">
           <div class="black-stripe"></div>
-          <div class="grey-stripe">000</div>
+          <div class="grey-stripe">
+            <span class="grey-stripe-span">000</span>
+          </div>
         </div>
         <div class="card-front">
           <div class="logo"></div>
