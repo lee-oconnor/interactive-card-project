@@ -1,13 +1,28 @@
-body {
-  font-family: "Space Grotesk", sans-serif;
-  font-size: 16px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.header-div {
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.container {
   background-color: #570861;
   width: 100%;
-  height: 240px;
-  margin: 0px;
+}
+
+.card-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .card-back {
@@ -25,6 +40,8 @@ body {
   height: 157px;
   background: linear-gradient(163.95deg, #6348fe 4.74%, #610595 88.83%);
   border-radius: 6%;
+  margin-top: -50px;
+  margin-left: 50px;
 }
 
 .black-stripe {
@@ -51,8 +68,19 @@ body {
 }
 
 .card-details {
+  background-color: #fff;
   display: flex;
   flex-flow: column;
   justify-content: center;
   align-items: center;
+}
+
+.main-wrapper {
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+}
+
+.card-details {
+  margin-top: 70px;
 }
