@@ -61,7 +61,7 @@ export default function Form() {
           <input
             id="cvc"
             type="text"
-            placeholder="CVC"
+            placeholder="e.g. 123"
             name="cvc"
             value={FormData.cvc}
             className="cvc"
